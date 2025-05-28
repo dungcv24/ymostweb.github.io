@@ -1,0 +1,89 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.variable }}.
+
+title: Ymost
+email: dungcv@ymost.com # Thay bằng email liên hệ của bạn
+description: >- # this means to ignore newlines until "baseurl:"
+  Ymost chuyên cung cấp giải pháp xây dựng ứng dụng nghiệp vụ với AppSheet,
+  tự động hóa quy trình với Google AppScript, tùy chỉnh và quản lý Google Workspace,
+  và tư vấn chuyển đổi số cho doanh nghiệp SME.
+baseurl: "/ymostweb.github.io" # QUAN TRỌNG: tên repository của bạn
+url: "https://dungcv24.github.io" # QUAN TRỌNG: username GitHub của bạn
+twitter_username: your_twitter_handle # Nếu có
+github_username:  dungcv24 # Username GitHub của bạn
+
+# Remote theme
+remote_theme: "mmistakes/minimal-mistakes-jekyll@4.24.0" # Sử dụng phiên bản cụ thể của theme
+
+# Minimal Mistakes Theme settings
+minimal_mistakes_skin: "default" # Chúng ta sẽ tùy chỉnh màu sau, tạm thời để default
+
+# Site Author
+author:
+  name: "Tên Của Bạn / Ymost"
+  avatar: "/assets/images/logo2.png" # Đường dẫn tới logo của bạn, chúng ta sẽ upload sau
+  bio: "Chuyên gia tư vấn giải pháp công nghệ cho doanh nghiệp."
+  location: "Hà Nội, Việt Nam"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:lienhe@ymost.com" # Thay bằng email của bạn
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://your-website.com"
+    # - label: "Twitter"
+#   icon: "fab fa-fw fa-twitter-square"
+#   url: "https://twitter.com/your_twitter_handle"
+# - label: "GitHub"
+#   icon: "fab fa-fw fa-github"
+#   url: "https://github.com/your_github_handle"
+# - label: "Instagram"
+#   icon: "fab fa-fw fa-instagram"
+#   url: "https://instagram.com/your_instagram_handle"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+# Plugins (GitHub Pages hỗ trợ một số plugin nhất định)
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-include-cache
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Analytics
+analytics:
+  provider: false # "google-gtag" "custom" # kích hoạt sau nếu cần
+  google:
+    tracking_id: "" # ID Google Analytics của bạn
+    anonymize_ip: false # default
+```
