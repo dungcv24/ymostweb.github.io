@@ -86,4 +86,3 @@ analytics:
   google:
     tracking_id: "" # ID Google Analytics của bạn
     anonymize_ip: false # default
-```
